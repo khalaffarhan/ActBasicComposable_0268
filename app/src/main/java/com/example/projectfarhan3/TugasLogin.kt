@@ -30,3 +30,16 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
     val logo = painterResource(id = R.drawable.logo_umy)
     val foto = painterResource(id = R.drawable.fotofarhan)
 
+    // Box terluar: menumpuk gambar latar (lapisan bawah) dan konten (lapisan atas)
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        // Lapisan 1: gambar latar memenuhi layar
+        Image(
+            painter = latar,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
