@@ -64,3 +64,21 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(40.dp))
 
+            // Logo dibungkus Box berbentuk lingkaran
+            Box(
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = logo,
+                    contentDescription = "Logo Universitas Muhammadiyah Yogyakarta",
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .scale(1.5f),
+                    contentScale = ContentScale.Fit
+                )
+            }
+
