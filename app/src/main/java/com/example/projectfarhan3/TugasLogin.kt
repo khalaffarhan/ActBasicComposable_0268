@@ -82,3 +82,24 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 )
             }
 
+            Spacer(modifier = Modifier.height(48.dp))
+
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Muhammad Mudhaffar Khalaf Farhan",
+                color = Color.Blue,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "20240140268",
+                color = Color.Black,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold
+            )
+
