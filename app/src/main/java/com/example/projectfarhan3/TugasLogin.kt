@@ -24,3 +24,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun HalamanLogin(modifier: Modifier = Modifier) {
+    val latar = painterResource(id = R.drawable.fotomakah)
+    val logo = painterResource(id = R.drawable.logo_umy)
+    val foto = painterResource(id = R.drawable.fotofarhan)
+
